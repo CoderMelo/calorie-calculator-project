@@ -30,5 +30,6 @@ function addEntry() {
     placeholder="Calories"
   />`;
     targetInputContainer.innerHTML += HTMLString
-
 }
+
+addEntryButton.addEventListener('click', addEntry);
