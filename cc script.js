@@ -37,6 +37,7 @@ let calories = 0:
 
 for (const item of list) {
   const currVal = cleanInputString(item.value);
+  let invalidInputMatch = isInvalidInput(currVal);
 }
 }
 
