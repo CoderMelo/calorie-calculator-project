@@ -44,6 +44,8 @@ for (const item of list) {
     isError = true;
     return null;
   }
+  calories += Number(currVal);
+
 }
 }
 
