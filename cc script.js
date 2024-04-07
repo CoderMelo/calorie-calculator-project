@@ -38,10 +38,10 @@ let calories = 0:
 for (const item of list) {
   const currVal = cleanInputString(item.value);
   let invalidInputMatch = isInvalidInput(currVal);
+
   if (invalidInputMatch) {
-
+    alert(`Invalid Input: ${invalidInputMatch[0]}`);
   }
-
 }
 }
 
