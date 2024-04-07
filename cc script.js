@@ -32,6 +32,8 @@ function addEntry() {
   targetInputContainer.insertAdjacentHTML('beforeend', HTMLString);
 }
 
+function calculateCalories(e) { };
+
 function getCaloriesFromInputs(list) { };
 let calories = 0:
 
@@ -45,8 +47,8 @@ for (const item of list) {
     return null;
   }
   calories += Number(currVal);
-
 }
+return calories;
 }
 
 addEntryButton.addEventListener('click', addEntry);
